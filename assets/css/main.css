@@ -12079,7 +12079,7 @@ blockquote > p {
   }
   .about__area-three {
     padding-top: 35px;
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
   }
   .about__img-three {
     margin-bottom: 1px !important;
@@ -12219,6 +12219,12 @@ blockquote > p {
     position: absolute;
     left: 0;
   }
+  @media (max-width: 767.98px) {
+  .sticky-icon {
+    display: none !important;
+  }
+}
+
 
   /* Custom class for h3 and h4 */
   .product-subtitle-custom {
